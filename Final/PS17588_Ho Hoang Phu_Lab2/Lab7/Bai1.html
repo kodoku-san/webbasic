@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chu</title>
+</head>
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        font-variant:small-caps;
+        color: blue;
+        text-decoration: none;
+        font-size:20px;
+        letter-spacing:1px;
+        line-height:25px;
+    }
+    a:hover{
+        color: red;
+        text-decoration: underline;
+    }
+    a:visited{
+        color: green;
+        font-size:20px;
+        letter-spacing:1px;
+        line-height:25px;
+    }
+    .container{
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    .container > header{
+        background-image: url("img/1.png");
+        background-size: 100% 100%;
+        height: 0px;
+        padding-bottom: 20%;
+    }
+    nav{
+        height: 50px;
+        background-color: aqua;
+
+    }
+    article{
+        width: 70%;
+        height: 600px;
+        background-color: gold;
+        float: left;
+    }
+    aside{
+        width: 30%;
+        height: 600px;
+        background-color: red;
+        float: right;
+    }
+    footer{
+        height: 20px;
+        background-color: blue;
+        clear: both;
+    }
+    iframe{
+        width: 100%;
+        min-height: 600px;
+    }
+    .vmenu{
+    box-shadow: 0 0 2px gray;
+    padding: 5px;
+    margin: 5px;
+    list-style-type: none;
+    border-radius: 5px;
+    background-color: yellow;
+    }
+    .vmenu a{
+        display: block;
+        padding:5px 5px 5px 30px;
+        background: url(#4651) no-repeat 5px center;
+        background-size: 20px;
+        color: red;
+    }
+    .vmenu a:hover{
+        background: url(img/target.png) no-repeat 5px center;
+        background-size: 20px;
+        background-color: skyblue;
+        color: hotpink;
+        text-decoration: underline;
+
+    }
+    .newtop{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 30px;
+    font-variant: small-caps;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: larger;
+    box-shadow: 0 0 10px orangered;
+    background-color: orangered;
+}
+</style>
+<body>
+    <div class="container">
+        <header>
+            <div class="newtop">Đăng nhập | Đăng ký | Quên mật khẩu</div>
+        </header>
+        <nav>
+            <a href="#2851" target="abc" >Trang Chủ</a> |
+            <a href="#98651" target="abc" >Giới Thiệu</a> |
+            <a href="#451" target="abc" >Liên Hệ</a> |
+            <a href="#4514" target="abc" >Góp Ý</a> |
+            <a href="#4851" target="abc" >Hỏi Đáp</a> 
+        </nav>
+        <article> <iframe src="../Lab5/Bai2.html" name="abc" frameborder="0"></iframe></article>
+        <aside>
+            <ul class="vmenu">
+                <li><a href="#486" target="abc" >Áo tuyên quốc giá</a></li>
+                <li><a href="#85156" target="abc" >Áo câu lạc bộ</a></li>
+                <li><a href="#4851" target="abc" >Giày bóng đá</a></li>
+                <li><a href="#1596" target="abc" >Phụ kiện</a></li>
+                </ul>
+        </aside>
+        <footer></footer>
+    </div>
+</body>
+</html>

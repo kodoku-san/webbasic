@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 550px;
+    border-color: blueviolet;
+}
+tr:nth-child(2n+1){
+    background-color: aqua;
+}
+tr:nth-child(1){
+    background-color: blue;
+}
+tr:nth-child(2){
+    background-color: blue;
+}
+.dong1,.dong2{
+    color: white;
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: bolder;
+}
+tr td{
+    text-align: center;
+}

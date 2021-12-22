@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fpoly</title>
+</head>
+<style>
+    form{
+        box-shadow: 0 0 2px black;
+        border-radius: 5px;
+        width: 25%;
+        min-width: 200px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .form-control{
+        padding: 5px;
+        outline: none;
+        color: gold;
+    }
+    .form-control:focus{
+        background-color: aqua;
+    }
+    .form-button{
+        border-radius: 5px;
+        box-shadow: inset 0 0 3px blue;
+        padding: 5px;
+        background-color: white;
+        color: red;
+    }
+    .button img{
+        width: 15px;
+    }
+</style>
+<body>
+    <form action="" method="POST">
+        <div class="form-group">
+            <div>Họ và tên</div>
+            <input type="text" name="" id="" tabindex="1">
+        </div>
+        <div class="form-group">
+            <div>Quốc tịch</div>
+            <input type="text" name="" id="" placeholder="Việt Nam" readonly>
+        </div>
+        <div class="form-group">
+            <div>Ghi chú</div>
+            <textarea name="" id="" cols="20" rows="3" tabindex="2"></textarea>
+        </div>
+        <button class="form-button"><img src="img/1.png" width="15px" height="15px" alt="" tabindex="3">Thêm</button>
+        <button class="form-button"><img src="img/2.png" width="15px" height="15px" alt="" tabindex="4">Sửa</button>
+        <button disabled class="form-button">Xóa</button>
+    </form>
+</body>
+</html>

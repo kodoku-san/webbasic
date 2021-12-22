@@ -1,0 +1,21 @@
+.column{
+    width: 25%;
+    float: left;
+}
+.sp{
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.ten{
+    font-size: larger;
+    font-variant: small-caps;
+    color: blue;
+}
+.gia{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}

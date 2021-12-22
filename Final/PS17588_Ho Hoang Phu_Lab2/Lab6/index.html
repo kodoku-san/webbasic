@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chu</title>
+</head>
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        font-variant:small-caps;
+        color: blue;
+        text-decoration: none;
+        font-size:20px;
+        letter-spacing:1px;
+        line-height:25px;
+    }
+    a:hover{
+        color: red;
+        text-decoration: underline;
+    }
+    a:visited{
+        color: green;
+        font-size:20px;
+        letter-spacing:1px;
+        line-height:25px;
+    }
+    .container{
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    .container > header{
+        background-image: url("img/1.png");
+        background-size: 100% 100%;
+        height: 0px;
+        padding-bottom: 20%;
+    }
+    nav{
+        height: 40px;
+        background-color: orange;
+        border-top: 1px solid blue;
+        border-bottom: 1px solid blue;
+
+    }
+    article{
+        width: 70%;
+        height: 600px;
+        background-color: gold;
+        float: left;
+    }
+    aside{
+        width: 30%;
+        height: 600px;
+        background-color: red;
+        float: right;
+    }
+    footer{
+        height: 20px;
+        background-color: blue;
+        clear: both;
+    }
+    iframe{
+        width: 100%;
+        min-height: 600px;
+    }
+    .hmenu ul{
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+        border-radius: 3px;
+        background-color: orange;
+        text-align: center;
+        
+    }
+    .hmeu ul li a{
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: larger;
+        color: white;
+        padding: 0px 10px;
+        line-height: 40px;
+    }
+    .hmenu ul li a:hover{
+        color: yellow;
+    }
+    .hmenu>ul>li{
+        display: inline-block;
+    }
+    .hmenu ul ul{
+        display: none;
+    }
+    .hmenu ul>li:hover>ul{
+        display: block;
+        position: absolute;
+    }
+</style>
+<body>
+    <div class="container">
+        <header></header>
+        <nav class="hmenu">
+            <ul>
+            <li><a href="#21851" target="abc" >Trang Chủ</a> |</li>
+            <li><a href="#981651" target="abc" >Giới Thiệu</a> |</li>
+            <li><a href="#4511" target="abc" >Liên Hệ</a> |
+                <ul>
+                    <li><a href="#23456" target="abc">Điện thoại</a></li>
+                    <li><a href="#654" target="abc">Email</a></li>
+                </ul>
+            </li>
+            <li><a href="#45141" target="abc" >Góp Ý</a> |</li>
+            <li><a href="#48511" target="abc" >Hỏi Đáp</a> </li>
+            </ul>
+        </nav>
+        <article> <iframe src="../Lab5/Bai2.html" name="abc" frameborder="0"></iframe></article>
+        <aside>
+            <ul class="vmenu">
+                <li><a href="#1486" target="abc" >Áo tuyên quốc giá</a></li>
+                <li><a href="#815156" target="abc" >Áo câu lạc bộ</a></li>
+                <li><a href="#48151" target="abc" >Giày bóng đá</a></li>
+                <li><a href="#15916" target="abc" >Phụ kiện</a></li>
+                </ul>
+        </aside>
+        <footer></footer>
+    </div>
+</body>
+</html>

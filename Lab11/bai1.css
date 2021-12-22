@@ -1,0 +1,23 @@
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid green;
+    padding: 5px;
+    text-align: center;
+    min-width: 40px;
+}
+tr:first-child td{
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+}
+tr:nth-child(2){
+    background-color: greenyellow;
+}
+tr:nth-child(3) td:nth-child(2),td:last-child{
+    color: red;
+}
+tr:hover{
+    background:darkcyan;
+}

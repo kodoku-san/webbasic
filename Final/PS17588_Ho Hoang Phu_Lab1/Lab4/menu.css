@@ -1,0 +1,28 @@
+h2{
+}
+em{
+    font-variant:small-caps;
+    font-size:20px;
+    letter-spacing:1px;
+    line-height:25px;
+    
+}
+.menu>a{
+    font-variant:small-caps;
+    color: blue;
+    text-decoration: none;
+    font-size:20px;
+    letter-spacing:1px;
+    line-height:25px;
+    
+}
+.menu>a:visited{
+    color: green;
+    font-size:20px;
+    letter-spacing:1px;
+    line-height:25px;
+}
+.menu>a:hover{
+    color: red;
+    text-decoration: underline;
+}

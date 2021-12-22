@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px 120px 10px 120px;
+    background: #665972;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: white;
+    color: #000000;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 20px;
+}
+
+.topn {
+    overflow: hidden;
+    background-color: #463254;
+}
+
+.topn a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.topn a:hover {
+    background-color: #54785b;
+    color: white;
+}
+
+.left {
+    float: right;
+    width: 75%;
+}
+
+.right {
+    float: left;
+    width: 25%;
+    background-color: #665972;
+    padding-right: 20px;
+}
+
+.left-read {
+    float: right;
+    width: 25%;
+}
+
+.right-read {
+    float: left;
+    width: 75%;
+    background-color: #665972;
+    padding-right: 20px;
+}
+
+.post {
+    background-color: #bba9a9;
+    width: 100%;
+    height: 240px;
+    padding: 20px;
+}
+.post > img {
+    height: 200px;
+    width: 267px;
+}
+.post p {
+    padding-left: 280px;
+}
+
+.postc {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.postc a img {
+    width: 243px;
+    height: 150px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: white;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #54785b;
+}
+img {
+    border-radius: 10px;
+}
+.active {
+    background-color: #54785b;
+}
+.a-right {
+    float: right !important;
+}
+
+.read-p{
+    line-height: 27px;
+}
+.tth{
+    width: 100%;
+}
+.box-tth{
+    margin-top: 30px;
+    margin-left: 600px;
+}
+.title-tth{
+    display: block;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #78b43d;
+    border-bottom: 2px solid #78b43d;
+    line-height: 30px;
+    font-weight: 700;
+}
+.img-tth{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%!important;
+}
+.title-box-tth{
+    width: 90.3333333333%!important;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}

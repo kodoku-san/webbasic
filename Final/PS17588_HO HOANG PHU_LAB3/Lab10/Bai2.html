@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fpoly</title>
+</head>
+<style>
+    form{
+        box-shadow: 0 0 2px black;
+        border-radius: 5px;
+        width: 25%;
+        min-width: 200px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .form-button{
+        border-radius: 5px;
+        box-shadow: inset 0 0 3px blue;
+        padding: 5px;
+        background-color: white;
+        color: red;
+    }
+    .button img{
+        width: 15px;
+    }
+</style>
+<body>
+    <form action="" method="POST">
+        <div class="form-group  ">
+            <div>HHỌ VÀ TÊN</div>
+            <input type="text">
+        </div>
+        <fieldset>
+            <legend>GIỚI TÍNH</legend>
+            <input type="radio" name="sex" value="Nam" id="">Nam
+            <input type="radio" name="sex" value="Nu" id="">Nữ
+        </fieldset>
+        <div class="form-group">
+            <div>NGÀY SINH</div>
+            <input type="date" name="" id="">
+        </div>
+        <div class="form-group">
+            ĐIỂM:
+            <input type="number" name="" min="0" max="10" step="0.25" id="">
+        </div>
+        <div class="form-group">
+            NGHỀ NGHIỆP:
+            <input list="nghenghiep">
+            <datalist id="nghenghiep">
+                <option>Giáo viên</option>
+                <option>Kỹ sư</option>
+                <option>Công nhân</option>
+                <option>Bác sĩ</option>
+            </datalist>
+        </div>
+        <fieldset>
+            <div class="form-group">
+                <legend>SỞ THÍCH</legend>
+                <input type="checkbox" name="" id="phim"><label for="phim">Xem phim</label>
+                <input type="checkbox" name="" id="dulich"><label for="dulich">Du lịch</label>
+                <input type="checkbox" name="" id="chui"><label for="chui">Chữi lộn</label>
+                <input type="checkbox" name="" id="danh"><label for="danh">Đánh lộn</label>
+            </div>
+        </fieldset>
+        <div>
+            <div>Ghi chú :</div>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <hr>
+        <div class="form-group">
+            <button type="submit" class="form-button"><img src="img/3.png" width="15px" height="15px" alt="" tabindex="1">Lưu</button>
+            <button class="form-button"><img src="img/2.png" width="15px" height="15px" alt="" tabindex="2">Sửa</button>
+            <button disabled class="form-button">Xóa</button>
+        </div>
+    </form>
+</body>
+</html>

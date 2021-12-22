@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        box-shadow: 0 0 2px black;
+        border-radius: 5px;
+        width: 25%;
+        min-width: 200px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+</style>
+<body>
+    <form action="">
+        <div class="form">
+            <div>Họ và tên</div>
+            <input type="text">
+        </div>
+        <div class="form">
+            <div>Giới tính</div>
+            <input type="radio" name="gt" id="nu"><label for="nu"></label>
+            <input type="radio" name="gt" id="nam" checked><label for="nam"></label>
+        </div>
+        <div class="form">
+            <div>Hình ảnh</div>
+            <input type="file" name="" id="">
+        </div>
+        <div class="form">
+            <div>Quốc tịch</div>
+            <select name="" id="" size="3" multiple>
+                <option value="" selected>Việt Nam</option>
+                <option value="">Lào</option>
+                <option value="">Campuchia</option>
+            </select>
+        </div>
+        <div class="form">
+            <div>Sở thích :</div>
+            <input type="checkbox" name="" id="phim"><label for="phim">Xem phim</label>
+            <input type="checkbox" name="" id="game"><label for="game">Chơi game</label>
+            <input type="checkbox" name="" id="music"><label for="music">Nghe nhạc</label>
+        </div>
+        <div>
+            <div>Ghi chú :</div>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <hr>
+        <input type="submit" value="Đăng ký">
+        <input type="submit" value="Đăng nhập">
+    </form>
+</body>
+</html>

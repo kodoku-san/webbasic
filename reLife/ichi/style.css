@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.container>header{
+    background-image: url("img/anhbia-fb.jpg");
+    background-size: 100% 100%;
+    height: 0;
+    padding-bottom: 22%;
+}
+.container>.article{
+    float: left;
+    width: 75%;
+    background-color: brown;
+    min-height: 250px;
+}
+.container>.aside{
+    float: right;
+    width: 25%;
+    background-color: green;
+    min-height: 250px;
+}
+.container>footer{
+    clear: both;
+    background-color: darkgoldenrod;
+    height: 50px;
+    border-top: 5px solid black;
+
+}
+.container>header>.log-head{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color:darkturquoise;
+    border-radius: 0px 0px 0px 40px;
+    box-shadow: 0 0 10px black;
+    padding-left: 20px;
+}
+.container>header>.log-head>a{
+    text-decoration: none;
+    color:darkslategrey;
+    line-height: 40px;
+    padding: 0px 10px;
+}
+.container>header>.log-head>a:hover{
+    color:white;
+}
+.container>header{
+    position: relative;
+
+}
+.container>header>.text-head{
+    position: absolute;
+    bottom: 5px;
+    left: 9px;
+    color: black;
+
+}
+.container>header>.text-head>.t{
+    border-top: 1px dotted black;
+    letter-spacing: 3px;
+}
+.container>header>.text-head>.p{
+    font-size: 30px;
+    font-weight: 600;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container>.article>.card{
+    text-align: center;
+    float: left;
+    margin: 10px;
+    width: 27%;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+}
+.container>.article>.card>img{
+    max-width: 95%;
+    margin: 10px 0px 20px 0px;
+}
+.container>.article>.card>.product{
+    color: white;
+}
+.container>.article>.card>.label{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.container>.article>.card>.action{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.container>.article>.card>.price{
+    position: absolute;
+    left: 5px;
+    bottom: 4px;
+}
+.menu{
+    background-color: darkturquoise;
+    height: 63px;
+    position: relative;
+    z-index: 1;
+}
+.menu > li {
+    float: left;
+    display: block;
+    list-style: none;
+    line-height: 45px;
+}
+.menu > li > a{
+    text-decoration: none;
+    padding: 9px 16px;
+    display: block;
+}
+.menu > li > a:hover{
+    background-color: orange;
+}
+.sub-menu{
+    position: absolute;
+    width: 200px;
+    background-color: darkturquoise;
+    display: none;
+}
+.sub-menu li {
+    border-top: 2px solid green;
+    list-style: none;
+}
+.sub-menu li a{
+    text-decoration: none;
+    line-height: 40px;
+    inline-size: 10px;
+    padding: 10px;
+}
+.sub-menu li:hover{
+    background-color: orange;
+}
+.menu > li:hover .sub-menu{
+    display: block;
+}
